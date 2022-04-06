@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packages>
+  <package id="chocolatey" />
+  <package id="chocolatey-core.extension" />
+  <package id="kitty" />
+  <package id="kitty.portable" />
+  <package id="LinkShellExtension" />
+  <package id="mpv" />
+  <package id="mpv.install" />
+</packages>

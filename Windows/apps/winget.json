@@ -1,0 +1,86 @@
+{
+	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
+	"CreationDate" : "2022-04-06T13:41:12.555-00:00",
+	"Sources" : 
+	[
+		{
+			"Packages" : 
+			[
+				{
+					"PackageIdentifier" : "TheGoddessInari.Hamsket"
+				},
+				{
+					"PackageIdentifier" : "Bitwarden.Bitwarden"
+				},
+				{
+					"PackageIdentifier" : "File-New-Project.EarTrumpet"
+				},
+				{
+					"PackageIdentifier" : "7zip.7zip"
+				},
+				{
+					"PackageIdentifier" : "Lexikos.AutoHotkey"
+				},
+				{
+					"PackageIdentifier" : "Ditto.Ditto"
+				},
+				{
+					"PackageIdentifier" : "Git.Git"
+				},
+				{
+					"PackageIdentifier" : "Google.Chrome"
+				},
+				{
+					"PackageIdentifier" : "ImageMagick.ImageMagick"
+				},
+				{
+					"PackageIdentifier" : "kalilinux.kalilinux"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.Edge"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.WindowsTerminal"
+				},
+				{
+					"PackageIdentifier" : "JanDeDobbeleer.OhMyPosh"
+				},
+				{
+					"PackageIdentifier" : "Spotify.Spotify"
+				},
+				{
+					"PackageIdentifier" : "WinSCP.WinSCP"
+				},
+				{
+					"PackageIdentifier" : "TheDocumentFoundation.LibreOffice"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerToys"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VisualStudioCode"
+				},
+				{
+					"PackageIdentifier" : "geeksoftwareGmbH.PDF24Creator"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerShell"
+				},
+				{
+					"PackageIdentifier" : "voidtools.Everything"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.MouseWithoutBorders"
+				}
+			],
+			"SourceDetails" : 
+			{
+				"Argument" : "https://winget.azureedge.net/cache",
+				"Identifier" : "Microsoft.Winget.Source_8wekyb3d8bbwe",
+				"Name" : "winget",
+				"Type" : "Microsoft.PreIndexed.Package"
+			}
+		}
+	],
+	"WinGetVersion" : "1.2.10271"
+}

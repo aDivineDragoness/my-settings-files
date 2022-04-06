@@ -1,0 +1,5 @@
+- convert todo.txt to markdown
+- install scripts
+    - Windows
+    - Linux
+        - including install of oh-my-zsh and oh-my-posh
