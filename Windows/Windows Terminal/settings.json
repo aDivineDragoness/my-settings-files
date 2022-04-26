@@ -1,7 +1,24 @@
 {
+    "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
     "actions": 
     [
+        {
+            "command": 
+            {
+                "action": "switchToTab",
+                "index": 7
+            },
+            "keys": "ctrl+alt+8"
+        },
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
+        },
         {
             "command": "unbound",
             "keys": "ctrl+alt+9"
@@ -21,22 +38,6 @@
         {
             "command": 
             {
-                "action": "copy",
-                "singleLine": false
-            },
-            "keys": "ctrl+c"
-        },
-        {
-            "command": 
-            {
-                "action": "switchToTab",
-                "index": 7
-            },
-            "keys": "ctrl+alt+8"
-        },
-        {
-            "command": 
-            {
                 "action": "newTab",
                 "index": 8
             }
@@ -46,6 +47,10 @@
             "keys": "ctrl+v"
         },
         {
+            "command": "find",
+            "keys": "ctrl+shift+f"
+        },
+        {
             "command": 
             {
                 "action": "quakeMode"
@@ -53,8 +58,12 @@
             "keys": "f21"
         },
         {
-            "command": "find",
-            "keys": "ctrl+shift+f"
+            "command": 
+            {
+                "action": "switchToTab",
+                "index": 4
+            },
+            "keys": "ctrl+alt+5"
         },
         {
             "command": 
@@ -69,9 +78,9 @@
             "command": 
             {
                 "action": "switchToTab",
-                "index": 4
+                "index": 4294967295
             },
-            "keys": "ctrl+alt+5"
+            "keys": "ctrl+alt+0"
         },
         {
             "command": 
@@ -88,14 +97,6 @@
                 "index": 6
             },
             "keys": "ctrl+alt+7"
-        },
-        {
-            "command": 
-            {
-                "action": "switchToTab",
-                "index": 4294967295
-            },
-            "keys": "ctrl+alt+0"
         }
     ],
     "copyFormatting": "none",
@@ -107,26 +108,26 @@
     {
         "defaults": 
         {
-            "acrylicOpacity": 0.68999999999999995,
             "colorScheme": "One Half Dark",
             "experimental.retroTerminalEffect": false,
             "font": 
             {
                 "face": "SauceCodePro Nerd Font"
             },
+            "opacity": 54,
             "suppressApplicationTitle": false,
             "useAcrylic": true
         },
         "list": 
         [
             {
-                "commandline": "powershell.exe",
+                "colorScheme": "One Half Dark",
+                "experimental.retroTerminalEffect": false,
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "name": "Windows PowerShell"
             },
             {
-                "commandline": "cmd.exe",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "name": "Eingabeaufforderung"
