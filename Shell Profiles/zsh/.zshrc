@@ -68,8 +68,8 @@ export ZSH="$HOME/.oh-my-zsh"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-#plugins=(git suse brew docker pip rsync thefuck vscode command-not-found colored-man-pages colorize ansible copypath extract)
-plugins=(git suse brew docker pip rsync thefuck vscode command-not-found colored-man-pages colorize copypath extract)
+plugins=(git suse brew docker pip rsync thefuck vscode command-not-found colored-man-pages colorize ansible copypath extract)
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -97,9 +97,11 @@ fi
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias ll="ls -lahF"
 
-
+#Oh My Posh settings
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 eval "$(oh-my-posh --init --shell zsh --config https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/v$(oh-my-posh --version)/themes/jblab_2021.omp.json)"
 
-alias ll="ls -lahF"
+#Custom Paths
+path+=~/.emacs.d/bin/
