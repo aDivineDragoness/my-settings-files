@@ -7,9 +7,28 @@
             "command": 
             {
                 "action": "switchToTab",
+                "index": 4
+            },
+            "keys": "ctrl+alt+5"
+        },
+        {
+            "command": 
+            {
+                "action": "switchToTab",
                 "index": 7
             },
             "keys": "ctrl+alt+8"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab",
+                "index": 8
+            }
         },
         {
             "command": 
@@ -18,6 +37,9 @@
                 "singleLine": false
             },
             "keys": "ctrl+c"
+        },
+        {
+            "command": "paste"
         },
         {
             "command": "unbound",
@@ -36,19 +58,8 @@
             "keys": "win+ctrl+alt+5"
         },
         {
-            "command": 
-            {
-                "action": "newTab",
-                "index": 8
-            }
-        },
-        {
-            "command": "paste",
+            "command": "unbound",
             "keys": "ctrl+v"
-        },
-        {
-            "command": "find",
-            "keys": "ctrl+shift+f"
         },
         {
             "command": 
@@ -56,14 +67,6 @@
                 "action": "quakeMode"
             },
             "keys": "f21"
-        },
-        {
-            "command": 
-            {
-                "action": "switchToTab",
-                "index": 4
-            },
-            "keys": "ctrl+alt+5"
         },
         {
             "command": 

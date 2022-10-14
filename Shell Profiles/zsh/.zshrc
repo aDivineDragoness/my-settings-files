@@ -81,7 +81,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
-  export EDITOR='nano'
+  export EDITOR='emacsclient -t'
 else
   export EDITOR='nano'
 fi
@@ -103,5 +103,11 @@ alias ll="ls -lahF"
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 eval "$(oh-my-posh --init --shell zsh --config https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/v$(oh-my-posh --version)/themes/jblab_2021.omp.json)"
 
-#Custom Paths
-path+=~/.emacs.d/bin/
+#emacs settings
+alias emacsc="emacsclient -t"
+path+=~/.emacs.profiles/doom/bin/
+export DOOMDIR='~/.config/doom'
+
+if pgrep -x emacs; then
+  emacs --bg-daemon
+fi
